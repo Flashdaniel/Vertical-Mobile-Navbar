@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background: #555;
+  height: 500px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background: #333;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.topnav a:hover {
+  background: #ddd;
+  color: #000;
+}
+
+.active {
+  background: #04aa6d;
+}
